@@ -1,0 +1,33 @@
+---
+
+port: 4000
+host: 0.0.0.0
+safe: false
+
+
+### site serving configuration ###
+exclude: [CNAME, README.md, .gitignore]
+permalink: / ## disables post output
+timezone: null
+lsi: false
+markdown: kramdown
+highlighter: pygments
+
+
+### content configuration ###
+title:       "Akanda - Open Source Network Virtualization for Cloud Service Providers" 
+keywords:    "NFV, Network Functions Virtualization, Akanda, DreamHost, Open Source, SDN, OpenStack, Networking, Routing"
+description: "Akanda - Open Network Virtualization for OpenStack"
+source_link: "https://github.com/dreamhost/akanda"
+favicon:     "img/favicon.ico"
+touch_icon:  "img/apple-touch-icon.png"
+google_analytics_key: ## put YOUR key here to enable tracking! (blank to disable)
+
+
+### template colors, used site-wide via css ###
+colors:
+  black:     '#0B0D10'
+  white:     '#FFFFFF'
+  green:     '#006926'
+  orange:    '#FC6300'
+  altgreen:  '#00B444'
